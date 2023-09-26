@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="header-text">
+          <h1>Papa's Pizzeria</h1>
+          <h2>Quality is our specialty</h2>
+        </div>
+      </header>
+      <section id="menu-section" class="menu-section"></section>
+      <section id="order-summary" class="order-summary"></section>
+      <div id="pop-up-form-container" class="pop-up-form-container">
+        <form id="user-info" class="user-info">
+          <h2 class="card-detail-title">Enter Card Details</h2>
+          <div class="form-input">
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="text"
+              id="user-card-info"
+              name="user-card-info"
+              maxlength="16"
+              placeholder="Enter card info: XXXX XXXX XXXX XXXX"
+              required
+            />
+            <input
+              type="number"
+              id="user-CVV"
+              name="user-CVV"
+              maxlength="3"
+              placeholder="Enter CVV"
+              required
+            />
+          </div>
+          <button id="form-submit-btn" class="form-submit-btn" type="submit">
+            Pay
+          </button>
+        </form>
+      </div>
+      <div id="loading-container" class="loading-container">
+        <h2 class="processing-order-header">Processing Your Order</h2>
+        <img class="loading-img" src="images/three-dots.svg" />
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

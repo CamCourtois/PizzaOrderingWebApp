@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  user-select: none;
+}
+
+.app-container {
+  width: 450px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px
+}
+
+/* typography */
+h1,h2,h3,h4{
+  margin: 7px
+}
+
+h3 {
+  font-size: 11.5pt;
+}
+.header-text{
+  /* display: block; */
+  opacity: 100%;
+  border-radius: 5px;
+  width: 275px;
+  color: whitesmoke;
+  text-shadow: 2px 0px 0px rgb(204, 9, 9);
+  padding: 45px 0px 10px 10px;
+  
+}
+
+.cart-total{
+  text-align: right;
+  font-size: 18px
+}
+
+.order-header-title{
+  font-size: 18px;
+  text-align: center;
+  margin: 0px auto 15px auto
+}
+
+.processing-order-header{
+  text-align: center;
+  margin-top: 70px;
+  
+}
+
+
+/* layout */
+
+header {
+  height: 140px;
+  background-size: cover;
+  background-image: url(https://www.stockvault.net/data/2020/12/20/281740/preview16.jpg)
+}
+
+.menu-section{
+  padding: 18px
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid grey;
+}
+
+.menu-info {
+  width: 250px;
+  padding: 5px;
+  margin: auto;
+}
+
+.order-container{
+  padding: 0px 18px 18px 18px
+}
+
+.order-list{
+  border-bottom: 1px solid grey;
+}
+
+
+.cart-item{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.item-name-with-btn{
+  display: flex;
+  align-items: center;
+}
+
+.pop-up-form-container, .loading-container{
+  background-color: white;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 250px;
+  left: 180px;
+  display: none;
+}
+
+.loading-container{
+  background-color: white;
+}
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+input{
+  margin-bottom: 18px;
+  height: 40px
+}
+
+
+
+.card-detail-title{
+  text-align: center;
+  margin-top: 45px;
+  font-size: 22px
+}
+
+.order-appreciation-tag{
+  display: block;
+  padding: 20px;
+  font-size: 17px;
+  margin: auto auto 30px auto;
+  text-align: center;
+  background-color: #dbf3c9;
+  width: 250px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-appreciation-container{
+  padding: 5px;
+}
+
+
+/* images */
+
+.menu-image {
+  width: 110px;
+  height: 110px;
+  background-size: cover;
+  padding: 5px;
+  border-radius: 10px
+}
+
+/* buttons */
+.menu-button {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  padding: auto 20px;
+  cursor: pointer
+}
+
+.remove-btn{
+  font-size: 13px;
+  color: darkgray;
+  padding: 5px 10px;
+  cursor: pointer
+}
+
+.complete-order{
+  border: none;
+  display: block;
+  width: 415px;
+  background-color: #32cd32;
+  padding: 11px 12px;
+  border-radius: 3px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 15px auto 10px auto;
+  cursor: pointer
+}
+
+.form-submit-btn{
+  display: block;
+  height: 40px;
+  width: 310px;
+  margin: 0px auto 20px auto;
+  border: none;
+  background-color: #32cd32;
+  color: white;
+  cursor: pointer
+}
+
+.loading-img{
+  width: 80px;
+  height: 80px;
+  /* border: 1px solid black; */
+  display: block;
+  padding: 10px;
+  margin: 90px auto
+}
+
